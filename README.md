@@ -1,99 +1,117 @@
-# APT Casino - Fully On-Chain Casino on Aptos Blockchain
+# Aptos-Casino - Fully On-Chain Casino on Aptos Blockchain
 
-A fully on-chain casino replica of stake.com built on the Aptos blockchain, featuring three popular casino games: Roulette, Mines, and Spin Wheel. All games use on-chain randomness and are played exclusively with APT tokens.
+A couple of days back, I was was on etherscan exploring some transactions and saw an advertisement of [https://stake.com/](url) which was giving 200% bonus on first deposit, I deposited 120 USDT into stake.com they gave 360 USDT as total balance in their controlled custodial wallet and when I started playing casino games I was shocked to see that I was only able to play with $1 per game and was unable to increase the betting amount beyond $1 coz and when I tried to explore and play other games on the platform the issue was persisting, I reached the customer support and got to know that this platform has cheated him under the name of wager limits as I was using the bonus scheme of 200%.
 
-## 🎮 Features
+When I asked the customer support to withdraw money they showed a rule list of wager limit, which said that if I wanted to withdraw the deposited amount, then I have to play $12,300 worth of gameplay and this was a big shock for me, as I was explained a maths logic by their live support. Thereby, In the hope of getting the deposited money back, I played the different games of stake.com like roulette, mines, spin wheel, etc, the entire night and lost all the money.
+
+I was very annoyed of that's how Aptos-Casino was born, which is a combination of gamefi and defi all in one platform where new web3 users can play games, perform gambling, but have a safe, secure, transparent platform that does not scam any of their users. Also, I wanted to address common issues in traditional gambling platforms.
+
+## Problems
+
+The traditional online gambling industry is plagued by several issues, including:
+- **Unfair Game Outcomes:** 99% of platforms manipulate game results, leading to unfair play.
+
+- **High Fees:** Users face exorbitant fees for deposits, withdrawals, and gameplay.
+
+- **Restrictive Withdrawal Policies:** Withdrawal limits and conditions often prevent users from accessing their funds.
+
+- **Bonus Drawbacks:** Misleading bonus schemes trap users with unrealistic wagering requirements.
+
+- **Lack of True Asset Ownership:** Centralised platforms retain control over user assets, limiting their freedom and security.
+
+- **User Adoption of Web2 users:** Bringing users to web3 and complexity of using wallet first time is kinda difficult for web2 users.
+
+## Solution
+
+Aptos-Casino addresses these problems by offering:
+- **Provably Fair Gaming:** Utilising the Aptos on-chain randomness module, my platform ensures all game outcomes are 100% transparent and verifiably fair.
+
+![APT-Casino - Analog pptx (3)](https://github.com/user-attachments/assets/6880e1cb-769c-4272-8b66-686a90abf3be)
+
+
+- **Low Fees:** Leveraging the efficiency of the Aptos blockchain to minimise transaction costs.
+
+- **Flexible Withdrawal Policies:** Providing users with unrestricted access to their funds.
+
+- **Transparent Bonus Schemes:** Clear and Clean bonus terms without hidden traps.
+
+- **True Asset Ownership:** Decentralised asset management ensures users have full control over their assets.
+
+- **Seamless wallet creation** Login via our keyless login wallet which offers sign in option with GOOGLE and APPLE option + Petra Wallet.
+
+- **Fully Gasless and Zero Requirement of Confirming Transactions:** Our Users does not require the user to pay gas fees, it's paid by our treasury address to approve a single transaction we do it all, they can just play as of they are playing in their web2 platforms.
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/6c6b3f5b-60f3-4e52-ac60-a71af09a682b" />
+
+
+## Key Features
+
+1. **On-Chain Randomness:** Utilizing aptos on-chain randomness module to ensure provably fair game outcomes.
+2. **Decentralized Asset Management:** Users retain full control over their funds through secure and transparent blockchain transactions.
+3. **User-Friendly Interface:** An intuitive and secure interface for managing funds, placing bets, and interacting with games.
+4. **Diverse Game Selection:** A variety of fully on-chain games, including roulette, mines, plinko, and spin wheel. As a (POC) Proof of Concept, developed fully on-chain 4 games but similar model can be applied to introduce the new casino games to the platform.
+5. **Seamless wallet creation** Login via our keyless login wallet which offers sign in option with GOOGLE and APPLE option + Petra Wallet.
+6. **Fully Gasless and Zero Requirement of Confirming Transactions:** Our Users does not require the user to pay gas fees, it's paid by our treasury address to approve a single transaction we do it all, they can just play as of they are playing in their web2 platforms.
+7. **Real-Time Updates**: Live game state and balance updates
+8. **Event System**: Comprehensive event tracking for all game actions
+
+
+## Technical Architecture
+
+<img width="3420" height="1648" alt="image" src="https://github.com/user-attachments/assets/02eb75a9-8cfe-4379-b3e4-ad202e0ff68c" />
+
+
+![APT-Casino - Analog pptx (4)](https://github.com/user-attachments/assets/8692e855-0a17-460e-b1fb-fdcf383311db)
+
+
+## Technology Stack
+
+- **Aptos Blockchain:** Ensures transparency, security, and efficiency in all transactions and game outcomes.
+
+- **Aptos On-Chain Randomness Module:** Guarantees fair and unbiased game results.
+
+- **Decentralized Wallet Integration:** Allows users to manage their assets securely.
+
+- Next.js, Javascript, Tailwind CSS, Move, Keyless login Wallet Aptos SDK, Petra Wallet.
+
+
+![APT-Casino - Analog pptx (2)](https://github.com/user-attachments/assets/ec900128-0414-4311-b7a1-46ac75d39288)
+
+
+
+## Future Plans
+
+All though started as a idea but now we are thinking to carry forward as a business model and expand further.
+
+- **Applying for Grants:** Seeking funding to further develop and expand the platform.
+
+- **Mainnet Launch:** Deploying on the aptos mainnet for real-world use.
+
+- **User Testing:** Conducting extensive user testing to refine the platform.
+
+- **Promoting the Product:** Marketing to attract a wider audience.
+
+- **Mobile compatability:** Launching Android and iOS compatible screen size mode.
+
+- Introducing new games to the platform
+
+- Integrate the AI capabilities used for generating NFT profiles to provide even more personalized and engaging user experiences.
+
+- Explore additional DeFi features like staking, farming, yield strategies to offer more financial services within the platform.
+
+- Enabling Developers to build more transparent games in our platform.
+
+- Bringing in new monetization to compensate the casino games/ game creators.
+
+- Having a inbuilt live streaming for gameplay, allow players to do streaming within the application.
+
+**Be the biggest gamefi/ gambling / games hub centre of the gaming industry.**
 
 ### Games
 - **Roulette**: Classic roulette with multiple bet types (numbers, colors, odds/evens, etc.)
+- **Plinko**: Dropping balls to multipliers
 - **Mines**: Reveal tiles to find gems while avoiding mines
 - **Spin Wheel**: Risk-based wheel spinning with different multiplier segments
-
-### Blockchain Features
-- **Aptos Integration**: Full Aptos blockchain integration
-- **On-Chain Randomness**: All games use provably fair on-chain randomness
-- **APT Token Support**: All games played exclusively with APT tokens
-- **Multiple Wallet Support**: Petra, Martian, and other Aptos wallets
-- **Mobile Friendly**: Responsive design for mobile and desktop
-
-### Technical Features
-- **Move Contracts**: Smart contracts written in Move language
-- **Real-Time Updates**: Live game state and balance updates
-- **Event System**: Comprehensive event tracking for all game actions
-- **Security**: Provably fair gaming with on-chain verification
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
-- Aptos CLI (for contract deployment)
-
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone <repository-url>
-cd Aptos-Casino
-```
-
-2. **Install dependencies**
-```bash
-npm install
-```
-
-3. **Set up environment variables**
-```bash
-cp .env.example .env.local
-```
-
-Edit `.env.local`:
-```env
-NEXT_PUBLIC_APTOS_NETWORK=testnet
-NEXT_PUBLIC_CASINO_MODULE_ADDRESS=your_deployed_module_address
-DEPLOYER_PRIVATE_KEY=your_deployer_private_key
-```
-
-4. **Deploy Move contracts**
-
-First, compile the Move contracts:
-```bash
-cd move-contracts
-aptos move compile
-```
-
-Deploy to testnet:
-```bash
-node scripts/deploy.js testnet
-```
-
-Deploy to mainnet:
-```bash
-node scripts/deploy.js mainnet
-```
-
-5. **Start the development server**
-```bash
-npm run dev
-```
-
-Visit [http://localhost:3000](http://localhost:3000) to see the application.
-
-## 🏗️ Architecture
-
-### Frontend (Next.js)
-- **Framework**: Next.js 15 with React 18
-- **Styling**: Tailwind CSS with custom gradients
-- **State Management**: React hooks and context
-- **Wallet Integration**: Aptos wallet adapter
-- **UI Components**: Custom casino-themed components
-
-### Smart Contracts (Move)
-- **Language**: Move
-- **Framework**: Aptos Framework
-- **Games**: Roulette, Mines, Wheel
-- **Randomness**: On-chain SHA3-256 hashing
-- **Events**: Comprehensive event system
 
 ### Key Components
 
@@ -103,7 +121,8 @@ src/
 │   ├── game/              # Game pages
 │   │   ├── roulette/      # Roulette game
 │   │   ├── mines/         # Mines game
-│   │   └── wheel/         # Wheel game
+│   │   ├── wheel/         # Wheel game
+│   │   └── plinko/        # Plinko game
 │   └── providers.js       # App providers
 ├── components/            # React components
 ├── hooks/                # Custom hooks
@@ -114,7 +133,8 @@ move-contracts/
 ├── sources/              # Move source files
 │   ├── roulette.move     # Roulette game contract
 │   ├── mines.move        # Mines game contract
-│   └── wheel.move        # Wheel game contract
+│   ├── wheel.move        # Wheel game contract
+│   └── plinko.move       # Wheel game contract
 ├── scripts/              # Deployment scripts
 └── Move.toml            # Move package configuration
 ```
@@ -137,6 +157,11 @@ move-contracts/
 - **Risk Levels**: Low, Medium, High
 - **Segments**: 6-10 segments based on risk
 - **Multipliers**: 1.2x to 10x depending on risk level
+- **Instant Results**: Immediate win/loss determination
+
+### Plinko
+- **High Multipliers:** Drop the balls in the pyramid and wait
+- **Risk Levels**: Low, Medium, High
 - **Instant Results**: Immediate win/loss determination
 
 ## 🔧 Development
@@ -240,47 +265,3 @@ The application is fully responsive and optimized for:
 - **Android Chrome**: Full support
 - **Mobile wallets**: Petra, Martian, etc.
 - **Touch interactions**: Optimized for touch devices
-
-## 🎨 Customization
-
-### Styling
-- **Theme**: Dark casino theme with purple/blue gradients
-- **Colors**: Customizable in `src/styles/colors.css`
-- **Components**: Modular component system
-
-### Games
-- **Adding Games**: Create new Move contracts and frontend components
-- **Modifying Games**: Update contract logic and UI components
-- **Configuration**: Game parameters in contract constants
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-- **Documentation**: [Link to docs]
-- **Issues**: [GitHub Issues]
-- **Discord**: [Discord Server]
-- **Telegram**: [Telegram Group]
-
-## 🏆 Roadmap
-
-- [ ] Additional games (Blackjack, Poker)
-- [ ] Tournament system
-- [ ] NFT integration
-- [ ] Advanced betting features
-- [ ] Mobile app
-- [ ] Multi-language support
-
----
-
-**Built with ❤️ on Aptos Blockchain**
