@@ -29,7 +29,7 @@ const HowItWorksSection = () => {
     },
     {
       id: 2,
-      title: 'Get APTC Tokens',
+      title: 'Get APT Tokens',
       description: 'Power your gameplay with APT tokens built on Aptos Network. Easily swap from any token or other cryptocurrencies.',
       emoji: '💰'
     },

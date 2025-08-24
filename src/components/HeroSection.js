@@ -70,7 +70,7 @@ export default function HeroSection() {
           <div className="text-center">
             <p className="text-gray-400 text-sm">Jackpot Size</p>
             <p className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-magic to-blue-magic">
-              {isDev ? '15,000' : '37,500'} APTC
+              {isDev ? '15,000' : '37,500'} APT
             </p>
           </div>
           <div className="text-center hidden md:block">
