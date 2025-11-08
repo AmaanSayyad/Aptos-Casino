@@ -83,14 +83,21 @@ export async function POST(request) {
       amountOctas
     );
     
-    // Wait for transaction confirmation
-    await client.waitForTransaction(txnHash);
+    // Ensure txnHash is a string
+    if (!txnHash) {
+      throw new Error('Transaction hash not returned from transfer');
+    }
     
-    console.log(`✅ Withdrawal successful: ${amount} APT to ${userAddress}, TX: ${txnHash}`);
+    const txnHashString = typeof txnHash === 'string' ? txnHash : String(txnHash);
+    
+    // Wait for transaction confirmation
+    await client.waitForTransaction(txnHashString);
+    
+    console.log(`✅ Withdrawal successful: ${amount} APT to ${userAddress}, TX: ${txnHashString}`);
     
     return NextResponse.json({
       success: true,
-      transactionHash: txnHash,
+      transactionHash: txnHashString,
       amount: amount,
       userAddress: userAddress,
       treasuryAddress: treasuryAccount.address().hex()
